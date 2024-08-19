@@ -20,7 +20,7 @@ function loadFromLocalStorage() {
     if (storedEditors) {
         editors = JSON.parse(storedEditors);
     } else {
-        editors = ['Emma Johnson', 'Liam Chen', 'Sophia Rodriguez', 'Noah Kim'];
+        editors = ['Shibin', 'Jidhin', 'Gokul', 'Vishnu G'];
     }
 
     if (storedSchedule) {
