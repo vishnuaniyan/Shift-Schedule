@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editor Weekly Shift Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Editor Weekly Shift Scheduler</h1>
+        <div id="scheduler" class="scheduler"></div>
+        <div class="button-container">
+            <button id="resetButton">Reset Schedule</button>
+            <button id="autoAssignButton">Auto Assign Shifts</button>
+            <button id="shuffleButton">Shuffle Schedule</button>
+            <button id="printButton">Print Schedule</button>
+        </div>
+        <div class="editor-management">
+            <h2>Manage Editors</h2>
+            <div class="editor-list" id="editorList"></div>
+            <div class="button-container">
+                <input type="text" id="newEditorName" placeholder="New editor name">
+                <button id="addEditorButton">Add Editor</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
